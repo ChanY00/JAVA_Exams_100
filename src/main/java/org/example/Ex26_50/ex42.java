@@ -1,19 +1,19 @@
-package org.example;
+package org.example.Ex26_50;
 
 import java.util.Scanner;
 
-public class ex41 {
+public class ex42 {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         int ball = scan.nextInt();
 
-        if (30 <= ball && ball <= 40){
+        if (50 <= ball && ball <= 70){
             System.out.println("win");
         }
-        else if (60 <= ball && ball <= 70){
+        else if(ball % 6 == 0){
             System.out.println("win");
         }
-        else{
+        else {
             System.out.println("lose");
         }
     }
